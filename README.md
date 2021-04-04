@@ -1,6 +1,6 @@
 <h1 align="center">Untethered Magic Website</h1>
 
-[View the live project here.](https://Untethered Magic Website URL to go here)
+[View the live project here.](https://8000-blush-cheetah-bkzfp4zv.ws-eu03.gitpod.io/)
 
 This is the main website for the Untethered Magic Residency Programme. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential applicant artists, funders and partners.
 
@@ -44,11 +44,33 @@ This is the main website for the Untethered Magic Residency Programme. It is des
 
     -   Contact Us Page Wireframe - [View](https://github.com/)
 
-## Features
+## Features Included
 
 -   Responsive on all device sizes
 
--   Interactive elements
+-   Interactive elements (be more specific)
+
+-   Showcase photos and information from previous residencies and events including participating artists and workshops in action.
+
+-   Publicise the collectives upcoming residency programmes and events.
+
+-   Provide details on the space's location, opening hours, and information on how to travel there.
+
+-   Provide links to external resources, such as the collective's social media profiles and the social media profiles of the individuals comprising the collective.
+
+-   Provide links to external resources, such as the collective's supporting institutions online presence and social media profiles. 
+
+-   Provide link to download the collective's portfolio and catalogue as a PDF.
+
+## Potential Future Features to be Included
+
+-   Provide links to previous participants' online presence and social media profiles. 
+
+-   Showcase downloadables and output from previous residencies and events and workshops to comprise a knowledge commons section.
+
+-   After a longer period of time, approximately five years, archive photos and information from previous residencies and events including participating artists and workshops in action as they decrease in relevance.
+
+-   Provide details on the space's location, opening hours, and information on how to travel there.
 
 ## Technologies Used
 
