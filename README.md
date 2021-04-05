@@ -97,8 +97,8 @@ This is the main website for the Untethered Magic Residency Programme. It is des
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Adobe XD:](https://www.adobe.com/africa/products/xd.html)
+    - XD was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
 
