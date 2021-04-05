@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #000 !important;
 }
 
 a {
@@ -47,10 +46,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     color: #d2287c;
 }
 
+#navbarNav > a {
+    color: #fff !important;
+}
+
 /* Mobile Navigation */
 
 /*--------------------------------------------------------------
-# Hero Section
+# Homepage Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -198,11 +201,77 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     width: 5%;
   }
 }
+
+/*--------------------------------------------------------------
+# ABOUT PAGE HERO JUMBOTRON - code adapated from How to Make
+Complete Responsive Website Using Bootstrap/HTML/CSS by Daily
+Tuition on YouTube 
+[https://bit.ly/3sTjrgj]
+--------------------------------------------------------------*/
+.head {
+    background: url(/assets/images/CAM24625.jpg);
+    width: 100%;
+    height: calc(100vh - 114px);
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.head-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 120px;
+    left: 80px;
+    right: 80px;
+    overflow: hidden;
+}
+
+.section-1 {
+  padding: 20vmin 0vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
 /*--------------------------------------------------------------
 # NEWSLETTER SIGN UP - code for submit button appended to form
 input taken from Bootstrap 4 Input Group Components 
 [https://getbootstrap.com/docs/4.0/components/input-group/]
 --------------------------------------------------------------*/
+
 .jumbotron {
     background-color: #282828;
 }
@@ -230,9 +299,15 @@ border: none;
 border: none;
 }
 
+
 /*--------------------------------------------------------------
 # TEAM SECTION
 --------------------------------------------------------------*/
+
+#team .card .card-text {
+    color: #212529
+}
+
 .team {
     margin-top: 80px;
     margin-bottom: 40px;
@@ -303,31 +378,8 @@ footer {
 }
 
 /*--------------------------------------------------------------
-# Back to top button
+# Contact page application form
 --------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  display: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 3px;
-  right: 15px;
-  bottom: 15px;
-  background: #428bca;
-  color: #fff;
-  transition: display 0.5s ease-in-out;
-  z-index: 1;
-}
 
-.back-to-top i {
-  font-size: 24px;
-  position: absolute;
-  top: 8px;
-  left: 8px;
-}
 
-.back-to-top:hover {
-  color: #fff;
-  background: #629fd3;
-  transition: background 0.2s ease-in-out;
-}
+
