@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
 /*--------------------------------------------------------------
 # GENERAL
@@ -36,10 +37,28 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .navbar {
     background-color: #282828;
+    z-index: 999;
 }
 
+.navbar-brand {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+@media (max-width: 992px) {
+    .navbar-brand {
+    font-size: 24px;
+  }
+}
+
+
 .navbar a {
-    color: #fff;
+    color: whitesmoke;
+    padding: 1vmin;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-left: 24px;
 }
 
 .navbar a:hover {
@@ -48,6 +67,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #navbarNav > a {
     color: #fff !important;
+}
+
+.navbar img {
+    max-height: 48px;
+    margin-left: 16px;
+}
+
+@media (max-width: 992px) {
+    .navbar img {
+    max-width: 80px;
+  }
+}
+
+.navbar-toggler-icon {
+    color: #d2287c;
 }
 
 /* Mobile Navigation */
@@ -110,7 +144,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero h2 {
-  color: #fff;
+  color: whitesmoke;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 900;
@@ -120,7 +154,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  color: #fff;
+  color: whitesmoke;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -208,30 +242,97 @@ Complete Responsive Website Using Bootstrap/HTML/CSS by Daily
 Tuition on YouTube 
 [https://bit.ly/3sTjrgj]
 --------------------------------------------------------------*/
-.head {
-    background: url(/assets/images/CAM24625.jpg);
-    width: 100%;
-    height: calc(100vh - 114px);
-    background-size: cover;
-    background-position: top right;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
 
-.head-container {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    top: 120px;
-    left: 80px;
-    right: 80px;
-    overflow: hidden;
-}
 
 .section-1 {
   padding: 20vmin 0vmin;
+}
+
+/*--------------------------------------------------------------
+# NEWSLETTER SIGN UP - code for submit button appended to form
+input taken from Bootstrap 4 Input Group Components 
+[https://getbootstrap.com/docs/4.0/components/input-group/]
+--------------------------------------------------------------*/
+
+
+/*-- https://bit.ly/3fROfKq -*/
+
+.big-image {
+  background: #612a7e;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("/assets/images/CAM24625.jpg");
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overlay h1 {
+  color: whitesmoke;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+@media (max-width: 992px) {
+    .overlay h1 {
+    font-size: 36px;
+  }
+}
+
+.overlay p {
+  width: 40%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  color: whitesmoke;
+}
+
+@media (max-width: 992px) {
+    .overlay p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 992px) {
+    .overlay h6 {
+    display: none;
+  }
+}
+
+.overlay .btn-read-more {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 5px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 0;
+  background: #612a7e;
+}
+
+.overlay .btn-read-more:hover {
+  background: #d2287c;
 }
 
 .section-1 .row .col-md-6 .pray img {
@@ -240,12 +341,7 @@ Tuition on YouTube
   border-radius: 0.2em;
 }
 
-.section-1 .row .col-md-6:last-child {
-  position: relative;
-}
-
 .section-1 .row .col-md-6 .panel {
-  position: absolute;
   top: 7vmin;
   left: -18vmin;
   background: white;
@@ -266,6 +362,7 @@ Tuition on YouTube
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.5);
 }
+
 /*--------------------------------------------------------------
 # NEWSLETTER SIGN UP - code for submit button appended to form
 input taken from Bootstrap 4 Input Group Components 
@@ -276,9 +373,24 @@ input taken from Bootstrap 4 Input Group Components
     background-color: #282828;
 }
 
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: 400;
+    display: inline;
+}
+
+@media (max-width: 992px) {
+    .jumbotron h1 {
+    font-size: 36px;
+    font-weight: 400;
+    display: inline-flex;
+  }
+}
+
 .jumbotron h1, p {
     color: whitesmoke;
 }
+
 .jumbotron input {
     background-color: #4e4e4e;
     border: none !important;
@@ -380,6 +492,3 @@ footer {
 /*--------------------------------------------------------------
 # Contact page application form
 --------------------------------------------------------------*/
-
-
-

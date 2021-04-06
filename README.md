@@ -228,24 +228,26 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   The full-screen hero image code came from this [Medium post](https://bit.ly/3fROfKq)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code.
 
 ### Content
 
--   All content was written by the developer.
+-   All content was supplied by members of Untethered Magic Residency Group.
 
 -   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
--   All Images were created by the developer.
+-   All images were supplied by members of Untethered Magic Residency Group or sourced from Creative Commons Licensed resources.
+
+-   The PNG image "Transparent Ouroboros PNG, Free Ouroboros PNG Download - PNGkin - 1" was sourced from [PNGkin](https://bit.ly/3ut6Yjw) and a blue overlay colour applied using Adobe Photoshop. 
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor Gerard McBride for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
