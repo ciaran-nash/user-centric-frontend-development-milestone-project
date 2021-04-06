@@ -1,10 +1,10 @@
 <h1 align="center">Untethered Magic Website</h1>
 
-[View the live project here.](https://8000-blush-cheetah-bkzfp4zv.ws-eu03.gitpod.io/)
+[View the live project here.](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/)
 
 This is the main website for the Untethered Magic Residency Programme. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential applicant artists, funders and partners.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project//assets/images/wireframes/responsive-mockup.png"></h2>
 
 ## User Experience (UX)
 
@@ -39,23 +39,23 @@ This is the main website for the Untethered Magic Residency Programme. It is des
 
 *   ### Wireframes
 
-    -   Home Page Desktop Wireframe - [View](https://github.com/)
+    -   Home Page Desktop Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/homepage-desktop.png)
 
-    -   Home Page Tablet Wireframe - [View](https://github.com/)
+    -   Home Page Tablet Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/homepage-tablet.png)
 
-    -   Home Page Mobile Wireframe - [View](https://github.com/)
+    -   Home Page Mobile Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/homepage-mobile.png)
 
-    -   About Page Desktop Wireframe - [View](https://github.com/)
+    -   About Page Desktop Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/about-desktop.png)
 
-    -   About Page Tablet Wireframe - [View](https://github.com/)
+    -   About Page Tablet Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/about-tablet.png)
 
-    -   About Page Mobile Wireframe - [View](https://github.com/)
+    -   About Page Mobile Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/about-mobile.png)
 
-    -   Contact Page Desktop Wireframe - [View](https://github.com/)
+    -   Contact Page Desktop Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/contact-desktop.png)
 
-    -   Contact Page Tablet Wireframe - [View](https://github.com/)
+    -   Contact Page Tablet Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/contact-tablet.png)
 
-    -   Contact Page Mobile Wireframe - [View](https://github.com/)
+    -   Contact Page Mobile Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/contact-mobile.png)
 
 ## Features Included
 
@@ -117,8 +117,10 @@ This is the main website for the Untethered Magic Residency Programme. It is des
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/docs/milestone-one-project-css-validation-report-jigsaw-w3-org-css-validator-validator-2021-04-06-12_08_07.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Index Page - [Results](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/docs/assets/docs/milestone-project-one-index-page-validator-w3-org-nu-2021-04-06-13_35_59.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) About Page - [Results](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/docs/assets/docs/assets/docs/milestone-project-one-about-page-validator-w3-org-nu-2021-04-06-13_43_29.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Team Page - [Results](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/docs/assets/docs/assets/docs/assets/docs/milestone-project-one-team-page-validator-w3-org-nu-2021-04-06-13_38_13.pdf)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -143,7 +145,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I want to find the news on upcoming residencies.
 
         1. These are clearly shown in the banner message.
         2. They will be directed to a page with another hero image and call to action.
@@ -163,7 +165,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+    1. As a Frequent User, I want to check to see if there are any newly added resiency opportunites.
 
         1. The user would already be comfortable with the website layout and can easily click the banner message.
 
@@ -197,25 +199,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ciaran-nash/user-centric-frontend-development-milestone-project)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -223,13 +225,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/ciaran-nash/user-centric-frontend-development-milestone-project
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/ciaran-nash/user-centric-frontend-development-milestone-project
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -251,7 +253,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The code for the HOME PAGE NEWSLETTER SIGN UP input group component was taken from the components section of the offical Bootstrap documentation [here](https://getbootstrap.com/docs/4.1/components/input-group/)
 
--   The code for the FOOTER SECTION is taken from "Putting It All Together | Mini Project with Bootstrap 4 - The Footer" coded by Matthew Rudge, instructor at The Code Institute, available [here][https://bit.ly/3rKE2Sw]
+-   The code for the FOOTER SECTION is taken from "Putting It All Together | Mini Project with Bootstrap 4 - The Footer" coded by Matthew Rudge, instructor at The Code Institute, available [here](https://bit.ly/3rKE2Sw)
 
 -   The code for the card group on the TEAM PAGE is taken from the components section of the offical Bootstrap documentation [here](https://getbootstrap.com/docs/4.1/components/card/)
 
