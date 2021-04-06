@@ -41,7 +41,7 @@ This is the main website for the Untethered Magic Residency Programme. It is des
 
     -   Home Page Desktop Wireframe - [View](assets/images/wireframes/homepage-desktop.png)
 
-    -   Home Page Tablet Wireframe - [View](assets/images/wireframes/homepage-tablet.png)
+    -   Home Page Tablet Wireframe - [View](assets/images/wireframes/home-tablet.png)
 
     -   Home Page Mobile Wireframe - [View](assets/images/wireframes/homepage-mobile.png)
 
@@ -53,7 +53,7 @@ This is the main website for the Untethered Magic Residency Programme. It is des
 
     -   Contact Page Desktop Wireframe - [View](assets/images/wireframes/contact-desktop.png)
 
-    -   Contact Page Tablet Wireframe - [View](ssets/images/wireframes/contact-tablet.png)
+    -   Contact Page Tablet Wireframe - [View](assets/images/wireframes/contact-tablet.png)
 
     -   Contact Page Mobile Wireframe - [View](assets/images/wireframes/contact-mobile.png)
 
@@ -99,7 +99,7 @@ This is the main website for the Untethered Magic Residency Programme. It is des
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Roboto' 'Raleway' and 'Reenie Beanie' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
@@ -118,9 +118,9 @@ This is the main website for the Untethered Magic Residency Programme. It is des
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/docs/milestone-one-project-css-validation-report-jigsaw-w3-org-css-validator-validator-2021-04-06-12_08_07.pdf)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Index Page - [Results](assets/docs/assets/docs/milestone-project-one-index-page-validator-w3-org-nu-2021-04-06-13_35_59.pdf)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) About Page - [Results](assets/docs/assets/docs/assets/docs/milestone-project-one-about-page-validator-w3-org-nu-2021-04-06-13_43_29.pdf)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Team Page - [Results](assets/docs/assets/docs/assets/docs/assets/docs/milestone-project-one-team-page-validator-w3-org-nu-2021-04-06-13_38_13.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Index Page - [Results](assets/docs/milestone-project-one-index-page-validator-w3-org-nu-2021-04-06-13_35_59.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) About Page - [Results](assets/docs/milestone-project-one-about-page-validator-w3-org-nu-2021-04-06-13_43_29.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Team Page - [Results](assets/docs/milestone-project-one-team-page-validator-w3-org-nu-2021-04-06-13_38_13.pdf)
 
 ### Testing User Stories from User Experience (UX) Section
 
