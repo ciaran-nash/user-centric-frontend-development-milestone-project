@@ -4,7 +4,7 @@
 
 This is the main website for the Untethered Magic Residency Programme. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential applicant artists, funders and partners.
 
-<h2 align="center"><img src="https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project//assets/images/wireframes/responsive-mockup.png"></h2>
+<h2 align="center"><img src="assets/images/wireframes/responsive-mockup.png"></h2>
 
 ## User Experience (UX)
 
@@ -39,23 +39,23 @@ This is the main website for the Untethered Magic Residency Programme. It is des
 
 *   ### Wireframes
 
-    -   Home Page Desktop Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/homepage-desktop.png)
+    -   Home Page Desktop Wireframe - [View](assets/images/wireframes/homepage-desktop.png)
 
-    -   Home Page Tablet Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/homepage-tablet.png)
+    -   Home Page Tablet Wireframe - [View](assets/images/wireframes/homepage-tablet.png)
 
-    -   Home Page Mobile Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/homepage-mobile.png)
+    -   Home Page Mobile Wireframe - [View](assets/images/wireframes/homepage-mobile.png)
 
-    -   About Page Desktop Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/about-desktop.png)
+    -   About Page Desktop Wireframe - [View](assets/images/wireframes/about-desktop.png)
 
-    -   About Page Tablet Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/about-tablet.png)
+    -   About Page Tablet Wireframe - [View](assets/images/wireframes/about-tablet.png)
 
-    -   About Page Mobile Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/about-mobile.png)
+    -   About Page Mobile Wireframe - [View](assets/images/wireframes/about-mobile.png)
 
-    -   Contact Page Desktop Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/contact-desktop.png)
+    -   Contact Page Desktop Wireframe - [View](assets/images/wireframes/contact-desktop.png)
 
-    -   Contact Page Tablet Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/contact-tablet.png)
+    -   Contact Page Tablet Wireframe - [View](ssets/images/wireframes/contact-tablet.png)
 
-    -   Contact Page Mobile Wireframe - [View](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/images/wireframes/contact-mobile.png)
+    -   Contact Page Mobile Wireframe - [View](assets/images/wireframes/contact-mobile.png)
 
 ## Features Included
 
@@ -117,10 +117,10 @@ This is the main website for the Untethered Magic Residency Programme. It is des
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/docs/milestone-one-project-css-validation-report-jigsaw-w3-org-css-validator-validator-2021-04-06-12_08_07.pdf)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Index Page - [Results](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/docs/assets/docs/milestone-project-one-index-page-validator-w3-org-nu-2021-04-06-13_35_59.pdf)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) About Page - [Results](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/docs/assets/docs/assets/docs/milestone-project-one-about-page-validator-w3-org-nu-2021-04-06-13_43_29.pdf)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Team Page - [Results](https://ciaran-nash.github.io/user-centric-frontend-development-milestone-project/assets/docs/assets/docs/assets/docs/assets/docs/milestone-project-one-team-page-validator-w3-org-nu-2021-04-06-13_38_13.pdf)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/docs/milestone-one-project-css-validation-report-jigsaw-w3-org-css-validator-validator-2021-04-06-12_08_07.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Index Page - [Results](assets/docs/assets/docs/milestone-project-one-index-page-validator-w3-org-nu-2021-04-06-13_35_59.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) About Page - [Results](assets/docs/assets/docs/assets/docs/milestone-project-one-about-page-validator-w3-org-nu-2021-04-06-13_43_29.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Team Page - [Results](assets/docs/assets/docs/assets/docs/assets/docs/milestone-project-one-team-page-validator-w3-org-nu-2021-04-06-13_38_13.pdf)
 
 ### Testing User Stories from User Experience (UX) Section
 
