@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .navbar-brand {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Reenie Beanie', cursive, sans-serif;
     font-size: 48px;
     font-weight: 400;
 }
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .navbar-toggler-icon {
-    color: #d2287c;
+    color: #d2287c !important;
 }
 
 /* Mobile Navigation */
@@ -237,25 +237,97 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 /*--------------------------------------------------------------
-# ABOUT PAGE HERO JUMBOTRON - code adapated from How to Make
-Complete Responsive Website Using Bootstrap/HTML/CSS by Daily
-Tuition on YouTube 
-[https://bit.ly/3sTjrgj]
---------------------------------------------------------------*/
-
-
-.section-1 {
-  padding: 20vmin 0vmin;
-}
-
-/*--------------------------------------------------------------
-# NEWSLETTER SIGN UP - code for submit button appended to form
-input taken from Bootstrap 4 Input Group Components 
+# HOMEPAGE NEWSLETTER SIGN UP - code for submit button appended 
+to form input taken from Bootstrap 4 Input Group Components 
 [https://getbootstrap.com/docs/4.0/components/input-group/]
 --------------------------------------------------------------*/
 
+.jumbotron {
+    background-color: #282828;
+}
 
-/*-- https://bit.ly/3fROfKq -*/
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: 400;
+    display: inline;
+}
+
+@media (max-width: 992px) {
+    .jumbotron h1 {
+    font-size: 36px;
+    font-weight: 400;
+    display: inline-flex;
+  }
+}
+
+.jumbotron h1, p {
+    color: whitesmoke;
+}
+
+.jumbotron input {
+    background-color: #4e4e4e;
+    border: none !important;
+}
+
+.jumbotron input::placeholder {
+    color: white !important;
+}
+
+.jumbotron .input-group-append .btn {
+    background: #612a7e;
+    color: whitesmoke;
+border: none;
+}
+
+.jumbotron .input-group-append .btn:hover {
+    background: #d2287c; 
+border: none;
+}
+
+/*--------------------------------------------------------------
+# TEAM PAGE
+--------------------------------------------------------------*/
+
+#team .card .card-text {
+    color: #212529
+}
+
+.team {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.team-social {
+    display: inline;
+}
+
+#offering .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 5px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 0;
+  background: #612a7e;
+}
+
+#offering .btn-get-started:hover {
+  background: #d2287c;
+}
+
+/*--------------------------------------------------------------
+# Code A Full Width Hero Background Image With Transparent 
+Overlay by Daniel Zuzevich on Medium.com
+[https://bit.ly/3fROfKq]
+--------------------------------------------------------------*/
 
 .big-image {
   background: #612a7e;
@@ -335,6 +407,17 @@ input taken from Bootstrap 4 Input Group Components
   background: #d2287c;
 }
 
+/*--------------------------------------------------------------
+# ABOUT PAGE INFORMATION SECTION - code adapated from How to 
+Make Complete Responsive Website Using Bootstrap/HTML/CSS by 
+Daily Tuition on YouTube.com
+[https://bit.ly/3sTjrgj]
+--------------------------------------------------------------*/
+
+.section-1 {
+  padding: 2vmin 0vmin;
+}
+
 .section-1 .row .col-md-6 .pray img {
   opacity: 0.8;
   width: 80%;
@@ -363,75 +446,27 @@ input taken from Bootstrap 4 Input Group Components
   color: rgba(0, 0, 0, 0.5);
 }
 
-/*--------------------------------------------------------------
-# NEWSLETTER SIGN UP - code for submit button appended to form
-input taken from Bootstrap 4 Input Group Components 
-[https://getbootstrap.com/docs/4.0/components/input-group/]
---------------------------------------------------------------*/
-
-.jumbotron {
-    background-color: #282828;
+#other-pages .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 5px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 0;
+  background: #612a7e;
 }
 
-.jumbotron h1 {
-    font-size: 48px;
-    font-weight: 400;
-    display: inline;
+#other-pages .btn-get-started:hover {
+  background: #d2287c;
 }
-
-@media (max-width: 992px) {
-    .jumbotron h1 {
-    font-size: 36px;
-    font-weight: 400;
-    display: inline-flex;
-  }
-}
-
-.jumbotron h1, p {
-    color: whitesmoke;
-}
-
-.jumbotron input {
-    background-color: #4e4e4e;
-    border: none !important;
-}
-
-.jumbotron input::placeholder {
-    color: white !important;
-}
-
-.jumbotron .input-group-append .btn {
-    background: #612a7e;
-    color: whitesmoke;
-border: none;
-}
-
-.jumbotron .input-group-append .btn:hover {
-    background: #d2287c; 
-border: none;
-}
-
-
-/*--------------------------------------------------------------
-# TEAM SECTION
---------------------------------------------------------------*/
-
-#team .card .card-text {
-    color: #212529
-}
-
-.team {
-    margin-top: 80px;
-    margin-bottom: 40px;
-}
-.team-social {
-    display: inline;
-}
-
-/*--------------------------------------------------------------
-# FIXED BACKGROUND IMG
---------------------------------------------------------------*/
-
 
 /*--------------------------------------------------------------
 # FOOTER SECTION - code inspired by "Putting It All Together | 
@@ -450,6 +485,7 @@ footer {
     font-size: 18px;
     color: #fafafa;
     text-align: center;
+    margin-left: 16px !important;
     padding-left: 5px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -490,5 +526,33 @@ footer {
 }
 
 /*--------------------------------------------------------------
-# Contact page application form
+# Contact page application form - Code from Bootstrap 4.1
 --------------------------------------------------------------*/
+
+@media (max-width: 576px) {
+#application > form > div.form-group.row.align-items-center.g-5.py-5 > div:nth-child(3) {
+    margin-top: 24px;
+}
+}
+
+#application > form > div.form-group.row.submit > div > button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 12px 32px;
+  margin-top: 48px;
+  border-radius: 5px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 0;
+  background: #612a7e;
+}
+
+#application > form > div.form-group.row.submit > div > button:hover {
+  background: #d2287c;
+}

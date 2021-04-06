@@ -29,20 +29,33 @@ This is the main website for the Untethered Magic Residency Programme. It is des
 
 -   ### Design
     -   #### Colour Scheme
-        -   The three main colours used are Untethered Magic neon pink, black and white.
+        -   The three main colours used are Untethered Magic neon pink, purple, and very dark chocolate.
     -   #### Typography
-        -   Various heavier weights of Oswald font are used throughout the whole website for headings with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Designed by Vernon Adams, Oswald is used freely across the internet by web browsers on desktop computers, laptops and mobile devices.
-        -   The Montserrat font is the main body font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate. 
+        -   Various heavier weights of Raleway font are used throughout the whole website for headings with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Designed by Vernon Adams, Oswald is used freely across the internet by web browsers on desktop computers, laptops and mobile devices.
+        -   Roboto font is the main body font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font that has become increasingly popular on the web, so it is both attractive and appropriate.
+        -   The cursive font Reenie Beanie is used for the navbrand logotype with Cursive and then Sans Serif as the fallback fonts in case for any reason the font isn't being imported into the site correctly. As the site is updated, an SVG file will be placed for the navbar brand that will incoporporate both the logo and the logotype.
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Desktop Wireframe - [View](https://github.com/)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Home Page Tablet Wireframe - [View](https://github.com/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Home Page Mobile Wireframe - [View](https://github.com/)
+
+    -   About Page Desktop Wireframe - [View](https://github.com/)
+
+    -   About Page Tablet Wireframe - [View](https://github.com/)
+
+    -   About Page Mobile Wireframe - [View](https://github.com/)
+
+    -   Contact Page Desktop Wireframe - [View](https://github.com/)
+
+    -   Contact Page Tablet Wireframe - [View](https://github.com/)
+
+    -   Contact Page Mobile Wireframe - [View](https://github.com/)
 
 ## Features Included
 
@@ -166,15 +179,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Windows Desktop, Laptops including MackBook Pro and Windows Machine, Samsung Galaxy Tab, Samsung Note Phone. Due to the unavailabilty of an Apple Phone the site was testing using the Chrome Dev Tools emulator for iPhoneX and iPad Pro.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   On mobile devices the NavBar toggle control is not visible. Though a pointer cursor appears, the mobile menu is not activated on click.
+
+-   The last card on the TEAM PAGE has to margin top to push it away from the card above when stacked vertically on mobile even though the card has a mt-4 bootstrap class applied.
+
+-   The styles for the APPLY NOW NavBar button which is a slightly modified Bootstrap button do not display in Safari Browser.
 
 ## Deployment
 
@@ -228,17 +243,33 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [Medium post](https://bit.ly/3fROfKq)
+-   The code for the NAVBAR was taken from the components section of the offical Bootstrap documentation [here](https://getbootstrap.com/docs/4.1/components/navbar/) and modified to suit the sites needs.
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   The code for the HOME PAGE HERO SECTION carousel was taken from the components section of the offical Bootstrap documentation [here](https://getbootstrap.com/docs/4.1/components/carousel/) and heavily modified to suit the sites needs.
+
+-   The code for the jumbotron HOME PAGE NEWSLETTER SIGN UP component was taken from the components section of the offical Bootstrap documentation [here](https://getbootstrap.com/docs/4.1/components/jumbotron/) and modified to suit the sites needs.
+
+-   The code for the HOME PAGE NEWSLETTER SIGN UP input group component was taken from the components section of the offical Bootstrap documentation [here](https://getbootstrap.com/docs/4.1/components/input-group/)
+
+-   The code for the FOOTER SECTION is taken from "Putting It All Together | Mini Project with Bootstrap 4 - The Footer" coded by Matthew Rudge, instructor at The Code Institute, available [here][https://bit.ly/3rKE2Sw]
+
+-   The code for the card group on the TEAM PAGE is taken from the components section of the offical Bootstrap documentation [here](https://getbootstrap.com/docs/4.1/components/card/)
+
+-   The code for the ABOUT PAGE HERO SECTION came from the 'A Full Width Hero Background Image With Transparent Overlay' [Medium post](https://bit.ly/3fROfKq) by Daniel Zuzevich.
+
+-   The code for the text and image on the ABOUT PAGE INFORMATION SECTION came from 'How to Make Complete Responsive Website Using Bootstrap/HTML/CSS by Daily Tuition on [YouTube.com](https://bit.ly/3sTjrgj) and heavily adapting it to suit the sites needs.
+
+-   The CONTACT PAGE HEADER SECTION code is taken from Bootstrap 5 Beta 3 examples found [here](file:///Users/ciarannash/Desktop/bootstrap-5.0.0-beta3-examples/heroes/index.html)
+
+-   The CONTACT PAGE APPLICATION FORM code is taken from the components section of the offical Bootstrap documentation [here](https://getbootstrap.com/docs/4.1/components/forms/)
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code.
 
 ### Content
 
 -   All content was supplied by members of Untethered Magic Residency Group.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
